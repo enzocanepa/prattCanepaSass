@@ -1,7 +1,7 @@
 .mainProductos{
     margin: auto;
     h1{
-        color: #494B4D;
+        color: $color-titulo-pages;
         font-weight: 400;
         display: flex;
         flex-direction: column;
@@ -11,7 +11,7 @@
             content:'';
             width: 100%;
             height: 1px;
-            background: $color-titulo-pages;
+            background: $color-raya-pages;
             margin: 20px 0;
         }
     }
@@ -36,3 +36,4 @@
         }
     }
 }
+/* mediasqueries productos */
