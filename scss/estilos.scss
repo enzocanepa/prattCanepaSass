@@ -5,13 +5,111 @@
 @import "contacto";
 @import "carrito";
 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 // estilos =======
 
 body{
     background-color: $color-principal;
     font-family: $tipo-de-letra-principal;
 }
-
+/* estructura */
 .grid{
-    
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 100%;
+    grid-template-rows: auto 1fr 1fr auto;
+    row-gap: 10px;
+    grid-template-areas: "header header"
+                        "main main"
+                        "section1 section1"
+                        "footer footer";
+}
+/* menu */
+header{
+    grid-area: header;
+    nav{
+        background-color: $color-secundario;
+        h2{
+            font-size: 1.3em;
+            font-weight: 600;
+            font-family: $tipo-de-letra-secundario;
+        }
+    }
+}
+/* main */
+main{
+    grid-area: main;
+}
+.mainPrincipal{
+    display: flex;
+    justify-content: center;
+    .carrusel_remera{
+        max-width: 100%;
+        padding-right: 15px;
+    }
+}
+/* section1 */
+.section1{
+    grid-area: section1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10%;
+    img{
+        margin: 15px;
+        transition: 0.5s;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+    .sectionImg{
+        width: 450px;
+    }
+    .sectionImg2{
+        width: 685px;
+    }
+    p{
+        font-size: 3rem;
+        color: white;
+        font-family: 'Rowdies', cursive;
+        position: absolute;    
+        padding-bottom: 20%;
+        padding-left: 30%;
+        transform: translate(-50%, -50%);
+    }
+    .sectionLogo{
+        display: flex;
+        max-width: 200px;
+    }
+}
+/* footer */
+footer{
+    grid-area: footer;
+    background-color: $color-secundario;
+    .ul-icono{
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+        margin-bottom: 0px;
+        list-style: none;
+        a{
+            color: black;
+            text-decoration: none;
+            margin: 3px;
+            transition: 0.5s;
+            &:hover{
+                color: #D6CE69;
+                transform: scale(1.1);
+            }
+        }
+    }
+    .p_footer{
+        text-align: center;
+        color: black;
+    }
 }
