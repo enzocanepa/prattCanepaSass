@@ -107,20 +107,19 @@ footer {
 
 /* mediaqueries tablet index */
 @media screen and (max-width: 820px) and (min-width: 601px) {
-  .sectionImg {
+  .section1 .sectionImg {
     width: 700px; }
-  .sectionImg2 {
+  .section1 .sectionImg2 {
     width: 700px; }
   .section1 p {
     padding-bottom: 400px;
-    padding-left: 700px;
-    transform: translate(-50%, -50%); } }
+    padding-left: 700px; } }
 
 /* mediaqueries tablet grande index*/
 @media screen and (max-width: 1023px) and (min-width: 821px) {
-  .sectionImg {
+  .section1 .sectionImg {
     width: 850px; }
-  .sectionImg2 {
+  .section1 .sectionImg2 {
     width: 850px; }
   .section1 p {
     padding-bottom: 400px;
@@ -129,12 +128,10 @@ footer {
 
 /* mediasqueries */
 @media screen and (max-width: 1150px) and (min-width: 1024px) {
-  .sectionImg {
+  .section1 .sectionImg {
     width: 300px; }
-  .sectionImg2 {
+  .section1 .sectionImg2 {
     width: 450px; }
-  .sectionImg3 {
-    width: 850px; }
   .section1 p {
     padding-bottom: 200px;
     padding-left: 350px;
@@ -142,12 +139,10 @@ footer {
 
 /* mediasqueries */
 @media screen and (max-width: 1280px) and (min-width: 1151px) {
-  .sectionImg {
+  .section1 .sectionImg {
     width: 390px; }
-  .sectionImg2 {
+  .section1 .sectionImg2 {
     width: 600px; }
-  .sectionImg3 {
-    width: 850px; }
   .section1 p {
     padding-bottom: 200px;
     padding-left: 400px;
