@@ -51,9 +51,8 @@ main{
 .mainPrincipal{
     display: flex;
     justify-content: center;
-    .carrusel_remera{
-        max-width: 100%;
-        padding-right: 15px;
+    #carrusel_remera{
+        max-width: 95%;
     }
 }
 /* section1 */
@@ -63,7 +62,7 @@ main{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     img{
         margin: 15px;
         transition: 0.5s;
@@ -77,18 +76,14 @@ main{
     .sectionImg2{
         width: 685px;
     }
-    p{
-        font-size: 3rem;
-        color: white;
-        font-family: 'Rowdies', cursive;
-        position: absolute;    
-        padding-bottom: 20%;
-        padding-left: 30%;
-        transform: translate(-50%, -50%);
-    }
-    .sectionLogo{
+    .divLogo{
         display: flex;
-        max-width: 200px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 25px;
+        .imgLogo{
+            max-width: 200px;
+        }
     }
 }
 /* footer */
@@ -130,10 +125,8 @@ footer{
         .sectionImg2{
             width: 650px;
         }
-        p{    
-            padding-bottom: 400px;
-            padding-left: 700px;
-            transform: translate(-50%, -50%);
+        .imgLogo{
+
         }
     }
     .ul-icono{
@@ -150,10 +143,6 @@ footer{
         .sectionImg2{
             width: 700px;
         }
-        p{    
-            padding-bottom: 400px;
-            padding-left: 700px;
-        }
     }
 }
 
@@ -167,11 +156,6 @@ footer{
         .sectionImg2{
             width: 850px;
         }
-        p{    
-            padding-bottom: 400px;
-            padding-left: 900px;
-            transform: translate(-50%, -50%);
-        }
     }
 }
 /* mediasqueries */
@@ -183,11 +167,6 @@ footer{
         .sectionImg2{
             width: 450px;
         }
-        p{    
-            padding-bottom: 200px;
-            padding-left: 350px;
-            transform: translate(-50%, -50%);
-        }
     }
 }
 /* mediasqueries */
@@ -198,11 +177,6 @@ footer{
         }
         .sectionImg2{
             width: 600px;
-        }
-        p{    
-            padding-bottom: 200px;
-            padding-left: 400px;
-            transform: translate(-50%, -50%);
         }
     }
 }
