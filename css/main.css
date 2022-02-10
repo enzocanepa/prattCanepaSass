@@ -43,6 +43,7 @@ main {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
   margin-bottom: 5%; }
   .section1 img {
     margin: 15px;
