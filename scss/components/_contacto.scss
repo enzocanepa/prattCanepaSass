@@ -1,22 +1,6 @@
 /* pages/contacto */
 .mainContacto{
     margin: auto;
-    h2{
-        color: $color-titulo-pages;
-        font-size: 2.5em;
-        font-weight: 500;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin: 15px Opx;
-        &:after{
-            content:'';
-            width: 100%;
-            height: 1px;
-            background: #C7C7C7;
-            margin: 20px 0;
-        }
-    }
     form{
         background-color: $color-secundario;
         display: flex;
