@@ -1,14 +1,9 @@
-// variables ======
-$color-principal:white;
-$color-secundario:whitesmoke;
-$color-titulo-pages:#494B4D;
-$color-raya-pages:#C7C7C7;
-$tipo-de-letra-principal:'Roboto', sans-serif;
-$tipo-de-letra-secundario:'Oswald', sans-serif;
-$medida-principal:300px;
+// import/base =======
+
+@import "base/variables";
 
 
-// estilos =======
+// estilos ===========
 
 *{
     padding: 0;
@@ -124,10 +119,12 @@ footer{
     }
 }
 
-// import ========
+// import/components ========
 
-@import "nosotros";
-@import "productos";
-@import "contacto";
-@import "carrito";
-@import "mediasqueries";
+@import "components/nosotros";
+@import "components/productos";
+@import "components/contacto";
+@import "components/carrito";
+
+// base/meadiasqueries ======
+@import "base/mediasqueries";
