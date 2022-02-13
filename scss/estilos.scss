@@ -3,7 +3,6 @@
 @import "base/variables";
 
 
-
 // estilos ===========
 
 *{
@@ -27,18 +26,11 @@ body{
                             "section1 section1"
                             "footer footer";
                             
-        // menu ===========
-        header{
-            grid-area: header;
-            nav{
-                background-color: $color-secundario;
-                h1{
-                    font-size: 1.2em;
-                    font-weight: 600;
-                    font-family: $tipo-de-letra-secundario;
-                }
-            }
-        }
+        // import/menu ===========
+
+        @import "base/estilos-header";
+
+
         // main ===========
         main{
             grid-area: main;
@@ -83,41 +75,9 @@ body{
             }
         }
         // footer =============
-        footer{
-            grid-area: footer;
-            background-color: $color-secundario;
-            .ul-icono{
-                display: flex;
-                justify-content: center;
-                margin-top: 20px;
-                margin-bottom: 15px;
-                list-style: none;
-                .footerA1{
-                    color: black;
-                    text-decoration: none;
-                    margin: 3px;
-                    transition: 0.5s;
-                    &:hover{
-                        color: rgb(228, 109, 198);
-                        transform: scale(1.1);
-                    }
-                }
-                .footerA2{
-                    color: black;
-                    text-decoration: none;
-                    margin: 3px;
-                    transition: 0.5s;
-                    &:hover{
-                        color: rgb(41, 41, 199);
-                        transform: scale(1.1);
-                    }
-                }
-            }
-            .p_footer{
-                text-align: center;
-                color: black;
-            }
-        }
+        
+        @import "base/estilos-footer";
+        
     }
 }
 
