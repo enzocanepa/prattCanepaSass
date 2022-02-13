@@ -11,10 +11,11 @@
     box-sizing: border-box;
 }
 
+/* estructura */
+
 body{
     background-color: $color-principal;
     font-family: $tipo-de-letra-principal;
-/* estructura */
     .grid{
         display: grid;
         height: 100vh;
@@ -33,6 +34,7 @@ body{
 
         // main ===========
         main{
+            /* main ========== */
             grid-area: main;
         }
         .mainPrincipal{
@@ -44,6 +46,7 @@ body{
         }
         // section1 ============
         .section1{
+            /* section1 ========= */
             grid-area: section1;
             display: flex;
             flex-wrap: wrap;

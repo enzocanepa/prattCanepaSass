@@ -3,10 +3,10 @@
   margin: 0;
   box-sizing: border-box; }
 
+/* estructura */
 body {
   background-color: white;
-  font-family: "Roboto", sans-serif;
-  /* estructura */ }
+  font-family: "Roboto", sans-serif; }
   body .grid {
     display: grid;
     height: 100vh;
@@ -15,14 +15,14 @@ body {
     row-gap: 10px;
     grid-template-areas: "header header" "main main" "section1 section1" "footer footer"; }
     body .grid header {
+      /* menu =========== */
       grid-area: header; }
-      body .grid header nav {
-        background-color: whitesmoke; }
-        body .grid header nav h1 {
-          font-size: 1.2em;
-          font-weight: 600;
-          font-family: "Oswald", sans-serif; }
+      body .grid header nav h1 {
+        font-size: 1.2em;
+        font-weight: 600;
+        font-family: "Oswald", sans-serif; }
     body .grid main {
+      /* main ========== */
       grid-area: main; }
     body .grid .mainPrincipal {
       display: flex;
@@ -30,6 +30,7 @@ body {
       body .grid .mainPrincipal #carrusel_remera {
         max-width: 98%; }
     body .grid .section1 {
+      /* section1 ========= */
       grid-area: section1;
       display: flex;
       flex-wrap: wrap;
@@ -54,6 +55,7 @@ body {
         body .grid .section1 .divLogo .imgLogo {
           max-width: 150px; }
     body .grid footer {
+      /* footer ======== */
       grid-area: footer;
       background-color: whitesmoke; }
       body .grid footer .ul-icono {
@@ -125,7 +127,39 @@ body {
     .sectionProductos .divImg .productosImg {
       max-width: 300px; }
     .sectionProductos .divImg figcaption {
+      text-align: center;
+      margin-top: 15px;
+      margin-bottom: 10px; }
+    .sectionProductos .divImg .boton {
       text-align: center; }
+      .sectionProductos .divImg .boton .btnComprar {
+        border-radius: 5px;
+        display: inline-block;
+        padding: 10px 15px;
+        text-decoration: none;
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); }
+      .sectionProductos .divImg .boton .btn-black {
+        color: white;
+        background-color: black; }
+        .sectionProductos .divImg .boton .btn-black:hover {
+          background-color: #424040; }
+        .sectionProductos .divImg .boton .btn-black:active {
+          background-color: #858181; }
+      .sectionProductos .divImg .boton .btnCarrito {
+        border-radius: 5px;
+        display: inline-block;
+        padding: 10px 20px;
+        text-decoration: none;
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.3);
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3); }
+      .sectionProductos .divImg .boton .btn-white {
+        color: white;
+        background-color: #7c7c7c; }
+        .sectionProductos .divImg .boton .btn-white:hover {
+          background-color: #424242; }
+        .sectionProductos .divImg .boton .btn-white:active {
+          background-color: #616161; }
 
 /* pages/contacto */
 .mainContacto {
