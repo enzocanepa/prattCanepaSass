@@ -2,57 +2,41 @@
 
 
 @mixin btnComprar {
-    .divImg{
-        margin: 15px;
-        transition: 0.5s;
-        &:hover{
-            transform: scale(1.1);
+    .boton{
+        .btnComprar{
+            border-radius: 5px;
+            display: inline-block;
+            padding: 5px 10px;
+            text-decoration: none;
+            text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+            box-shadow: 0 1px 1px rgba(0,0,0,0.3);
         }
-        .productosImg{
-            max-width: $medida-principal;
+        .btn-black{
+            color: white;
+            background-color: black;
+            &:hover{                    
+                background-color: rgb(66, 64, 64);
+            }
+            &:active{
+                background-color: rgb(133, 129, 129);
+            }
         }
-        figcaption{
-            text-align: center;
-            margin-top: 15px;
-            margin-bottom: 10px;
+        .btnCarrito{
+            border-radius: 5px;
+            display: inline-block;
+            padding: 5px 15px;
+            text-decoration: none;
+            text-shadow: 0 1px 0 rgba(255,255,255,0.3);
+            box-shadow: 0 1px 1px rgba(0,0,0,0.3);
         }
-        .boton{
-            text-align: center;
-            .btnComprar{
-                border-radius: 5px;
-                display: inline-block;
-                padding: 10px 15px;
-                text-decoration: none;
-                text-shadow: 0 1px 0 rgba(255,255,255,0.3);
-                box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+        .btn-white{
+            color: white;
+            background-color: rgb(124, 124, 124);
+            &:hover{
+                background-color: rgb(66, 66, 66);
             }
-            .btn-black{
-                color: white;
-                background-color: black;
-                &:hover{
-                    background-color: rgb(66, 64, 64);
-                }
-                &:active{
-                    background-color: rgb(133, 129, 129);
-                }
-            }
-            .btnCarrito{
-                border-radius: 5px;
-                display: inline-block;
-                padding: 10px 20px;
-                text-decoration: none;
-                text-shadow: 0 1px 0 rgba(255,255,255,0.3);
-                box-shadow: 0 1px 1px rgba(0,0,0,0.3);
-            }
-            .btn-white{
-                color: white;
-                background-color: rgb(124, 124, 124);
-                &:hover{
-                    background-color: rgb(66, 66, 66);
-                }
-                &:active{
-                    background-color: rgb(97, 97, 97);
-                }
+            &:active{                    
+                background-color: rgb(97, 97, 97);
             }
         }
     }
