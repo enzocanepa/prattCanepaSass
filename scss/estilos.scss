@@ -41,7 +41,7 @@ body{
             display: flex;
             justify-content: center;
             #carrusel_remera{
-                max-width: 98%;
+                width: 98%;
             }
         }
         // section1 ============
@@ -62,7 +62,7 @@ body{
                 }
             }
             .sectionImg{
-                width: $medida-principal + 150;
+                width: $medida-principal +150;
             }
             .sectionImg2{
                 width: ($medida-principal * 2) + 85;

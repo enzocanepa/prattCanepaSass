@@ -28,7 +28,7 @@ body {
       display: flex;
       justify-content: center; }
       body .grid .mainPrincipal #carrusel_remera {
-        max-width: 98%; }
+        width: 98%; }
     body .grid .section1 {
       /* section1 ========= */
       grid-area: section1;
@@ -211,10 +211,11 @@ body {
   .section1 {
     margin-bottom: 20%; }
     .section1 .sectionImg {
-      width: 650px;
-      margin: 20px; }
+      width: 650px; }
     .section1 .sectionImg2 {
       width: 650px; }
+    .section1 .imgLogo {
+      width: 100px; }
   .ul-icono {
     padding-left: 20px;
     margin-top: 20px; }
