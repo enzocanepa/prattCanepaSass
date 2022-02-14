@@ -1,3 +1,7 @@
+// variables-maps =========
+
+@import "base/mapas";
+
 /* pages/contacto */
 .mainContacto{
     margin: auto;
@@ -24,17 +28,17 @@
                 display: inline-block;
                 padding: 10px 15px;
                 text-decoration: none;
-                text-shadow: 0 1px 0 rgba(255,255,255,0.3);
-                box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+                text-shadow: map-get($map: $contacto , $key: text-shadow-contacto );
+                box-shadow: map-get($map: $contacto , $key: box-shadow-contacto )
             }
             .btn-green{
                 color: white;
-                background-color: #3CC93F;
+                background-color: map-get($map: $contacto , $key: color-contacto );
                 &:hover{
-                    background-color: #37B839;
+                    background-color: map-get($map: $contacto , $key: colorHover-contacto );
                 }
                 &:active{
-                    background-color: #29962A;
+                    background-color: map-get($map: $contacto , $key: colorActive-contacto );
                 }
             }
         }
