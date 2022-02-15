@@ -2,9 +2,12 @@
 .mainNosotros{
     margin: 0px auto;
     .nosotros_div{
-        max-width: $medida-principal*2;
+        width: 650px;
         text-align: center;
         border-radius: 20px;
         background-color: $color-secundario;
+        p{
+            padding: 15px;
+        }
     }
 }

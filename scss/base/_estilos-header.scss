@@ -4,6 +4,7 @@ header{
     /* menu =========== */
     grid-area: header;
     nav{
+        background-color: $color-secundario;
         h1{
             font-size: 1.2em;
             font-weight: 600;

@@ -19,8 +19,36 @@
     }
     /* mediasqueries nosotros */
     .nosotros_div{
-        max-width: 300px;
+        max-width: 95%;
     }
+    /* mediasqueries productos */
+    .mainProductos{
+        width: 100%;
+        .tiendaProductos{
+            flex-direction: column;
+            justify-content: center;
+            .divLista{
+                flex-wrap: wrap;
+                flex-direction: row;
+                width: 100%;
+                margin-bottom: 30px;
+                justify-content: center;
+                .menuLista{
+                    width: 35%;
+                    padding: 5px 0px;
+                    margin: 5px;
+                }
+            }
+            .sectionProductos{
+                width: 90%;
+                .divImg{
+                    width: 100%;
+                    margin: 0px 0px 25px 10%;
+                }
+            }
+        }
+    }
+
     /* mediasqueries contacto */
     form{
         width: 350px;
@@ -36,6 +64,36 @@
             width: 700px;
         }
     }
+
+    /* pages/productos */
+    .mainProductos{
+        width: 100%;
+        .tiendaProductos{
+            flex-direction: column;
+            justify-content: center;
+            .divLista{
+                flex-wrap: wrap;
+                flex-direction: row;
+                width: 100%;
+                margin-bottom: 30px;
+                justify-content: center;
+                .menuLista{
+                    width: 20%;
+                    padding: 10px 10px;
+                    margin: 5px;
+                }
+            }
+            .sectionProductos{
+                width: 90%;
+                justify-content: center;
+                .divImg{
+                    width: 100%;
+                    margin: 0px 0px 25px 10%;
+                    
+                }
+            }
+        }
+    }
 }
 
 /* mediaqueries tablet grande index*/
@@ -47,6 +105,35 @@
         }
         .sectionImg2{
             width: 850px;
+        }
+    }
+
+    /* pages/productos */
+    .mainProductos{
+        width: 100%;
+        .tiendaProductos{
+            flex-direction: column;
+            justify-content: center;
+            .divLista{
+                flex-wrap: wrap;
+                flex-direction: row;
+                width: 100%;
+                margin-bottom: 30px;
+                justify-content: center;
+                .menuLista{
+                    width: 20%;
+                    padding: 10px 10px;
+                    margin: 5px;
+                }
+            }
+            .sectionProductos{
+                width: 90%;
+                justify-content: center;
+                .divImg{
+                    width: 100%;
+                    margin: 0px 0px 25px 10%;
+                }
+            }
         }
     }
 }
