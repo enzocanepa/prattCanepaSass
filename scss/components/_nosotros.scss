@@ -1,13 +1,43 @@
 /* pages/nosotros */
 .mainNosotros{
+    max-width: 900px;
+    width: 80%;
     margin: 0px auto;
     .nosotros_div{
-        width: 650px;
-        text-align: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         border-radius: 20px;
         background-color: $color-secundario;
         p{
+            text-align: center;
             padding: 15px;
+        }
+    }
+}
+.sectionNosotros{
+    grid-area: section1;
+    max-width: 900px;
+    width: 80%;
+    margin: 40px auto;
+    .divContainer{
+        display: flex;
+        justify-content: center;
+        .divMap{
+            box-shadow: 0px 0px 6px 0px rgb(158, 158, 158);
+            margin-right: 20px;
+        }
+        .divMapP{
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-self: center;
+            margin-left: 20px;
+            h3{
+                color: $color-titulo-pages;
+                margin-bottom: 20px;
+            }
         }
     }
 }

@@ -112,14 +112,39 @@ body {
         background: #C7C7C7;
         margin: 20px 0; }
     body .grid .mainNosotros {
+      max-width: 900px;
+      width: 80%;
       margin: 0px auto; }
       body .grid .mainNosotros .nosotros_div {
-        width: 650px;
-        text-align: center;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         border-radius: 20px;
         background-color: #f8f5ee; }
         body .grid .mainNosotros .nosotros_div p {
+          text-align: center;
           padding: 15px; }
+    body .grid .sectionNosotros {
+      grid-area: section1;
+      max-width: 900px;
+      width: 80%;
+      margin: 40px auto; }
+      body .grid .sectionNosotros .divContainer {
+        display: flex;
+        justify-content: center; }
+        body .grid .sectionNosotros .divContainer .divMap {
+          box-shadow: 0px 0px 6px 0px #9e9e9e;
+          margin-right: 20px; }
+        body .grid .sectionNosotros .divContainer .divMapP {
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          align-self: center;
+          margin-left: 20px; }
+          body .grid .sectionNosotros .divContainer .divMapP h3 {
+            color: #494B4D;
+            margin-bottom: 20px; }
     body .grid .mainProductos {
       max-width: 1100px;
       width: 90%;
@@ -144,7 +169,7 @@ body {
             body .grid .mainProductos .tiendaProductos .divLista .menuLista:hover {
               background-color: #d6d6d6; }
           body .grid .mainProductos .tiendaProductos .divLista .item-active {
-            background: #61768b;
+            background: #6a87a5;
             color: white; }
         body .grid .mainProductos .tiendaProductos .sectionProductos {
           width: 82%;
@@ -168,8 +193,7 @@ body {
               padding-top: 20px;
               padding-bottom: 15px; }
               body .grid .mainProductos .tiendaProductos .sectionProductos .divImg .descripcionColor figcaption {
-                padding-bottom: 10px;
-                font-family: 'Roboto', sans-serif; }
+                padding-bottom: 10px; }
               body .grid .mainProductos .tiendaProductos .sectionProductos .divImg .descripcionColor .boton .btnComprar {
                 border-radius: 5px;
                 display: inline-block;

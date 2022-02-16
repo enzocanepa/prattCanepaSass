@@ -28,7 +28,7 @@
                 }
             }
             .item-active{
-                background: #61768b;
+                background: #6a87a5;
                 color: white;
             }
         }
@@ -57,7 +57,6 @@
                     padding-bottom: 15px;
                     figcaption{
                         padding-bottom: 10px;
-                        font-family: 'Roboto', sans-serif;
                     }
                     // mixin =========
                     @include btnComprar
