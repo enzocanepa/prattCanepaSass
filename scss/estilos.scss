@@ -58,11 +58,11 @@ body{
                 margin: 10px;
             }
             .sectionImg{
-                width: $medida-principal +150;
+                width: $medida-principal+150;
                 box-shadow: 0px 0px 6px 0px rgb(0, 0, 0);
             }
             .sectionImg2{
-                width: ($medida-principal * 2) + 85;
+                width: $medida-principal+350;
                 box-shadow: 0px 0px 6px 0px rgb(0, 0, 0);
             }
             .divLogo{
@@ -82,20 +82,21 @@ body{
         // footer =============
         
         @import "base/estilos-footer";
+
+        // import/base =======
+        @import "base/extends";
+
+        // import/components ========
+
+        @import "components/nosotros";
+        @import "components/productos";
+        @import "components/contacto";
+        @import "components/carrito";
+        // base/meadiasqueries ======
+        @import "base/mediasqueries";
         
     }
 }
 
 
-// import/base =======
-@import "base/extends";
 
-// import/components ========
-
-@import "components/nosotros";
-@import "components/productos";
-@import "components/contacto";
-@import "components/carrito";
-
-// base/meadiasqueries ======
-@import "base/mediasqueries";
