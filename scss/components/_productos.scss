@@ -19,13 +19,17 @@
                 width: 90%;
                 padding: 15px 0px;
                 margin-bottom: 20px;
-                background: rgb(0, 0, 0);
+                background: #f5ecd9;
+                color: black;
                 text-align: center;
                 text-decoration: none;
-                color: #fff;
                 &:hover{                    
-                    background-color: rgb(66, 64, 64);
+                    background-color: rgb(214, 214, 214);
                 }
+            }
+            .item-active{
+                background: #61768b;
+                color: white;
             }
         }
         /* productos ========= */
@@ -53,6 +57,7 @@
                     padding-bottom: 15px;
                     figcaption{
                         padding-bottom: 10px;
+                        font-family: 'Roboto', sans-serif;
                     }
                     // mixin =========
                     @include btnComprar
