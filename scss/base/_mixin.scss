@@ -13,9 +13,10 @@
         }
         .btn-black{
             color: white;
-            background-color: #2D3E50;
+            background-color: #3b5168;
             &:hover{                    
-                background-color: rgb(66, 64, 64);
+                background-color: #f5ecd9;
+                color: black;
             }
             &:active{
                 background-color: rgb(133, 129, 129);
@@ -33,7 +34,8 @@
             color: white;
             background-color: #7289a1;
             &:hover{
-                background-color: rgb(66, 66, 66);
+                background-color: #f5ecd9;
+                color: black;
             }
             &:active{                    
                 background-color: rgb(97, 97, 97);

@@ -9,7 +9,7 @@
         background-color: $color-secundario;
         display: flex;
         flex-direction: column;
-        width: 400px;
+        width: $medida-principal + 100 ;
         border-radius: 10px;
         font-size: 1.0em;
         margin: 0 auto;
