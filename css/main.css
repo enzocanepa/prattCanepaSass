@@ -271,17 +271,69 @@ body {
           margin-bottom: 10px; }
         body .grid .mainCarrito .div_carrito h3 {
           font-size: 1.4em; }
-    @media screen and (max-width: 600px) and (min-width: 280px) {
+    @media screen and (max-width: 360px) and (min-width: 200px) {
       body .grid {
         /* mediasqueries nosotros */
         /* mediasqueries productos */
         /* mediasqueries contacto */ }
         body .grid .section1 .sectionImg {
-          width: 650px; }
+          width: 250px; }
         body .grid .section1 .sectionImg2 {
-          width: 650px; }
+          width: 250px; }
         body .grid .section1 .imgLogo {
-          margin-top: 30px; }
+          margin-top: 30px;
+          width: 100px; }
+        body .grid .ul-icono {
+          padding-left: 20px;
+          margin-top: 20px; }
+        body .grid .nosotros_div {
+          max-width: 100%; }
+        body .grid .sectionNosotros {
+          margin: auto; }
+          body .grid .sectionNosotros .divContainer {
+            flex-direction: column;
+            justify-content: center; }
+            body .grid .sectionNosotros .divContainer .divMap {
+              display: none; }
+        body .grid .mainProductos {
+          width: 100%; }
+          body .grid .mainProductos .tiendaProductos {
+            flex-direction: column;
+            /* productos ========= */ }
+            body .grid .mainProductos .tiendaProductos .divLista {
+              flex-wrap: wrap;
+              flex-direction: row;
+              width: 100%;
+              margin-bottom: 5%;
+              justify-content: center; }
+              body .grid .mainProductos .tiendaProductos .divLista .menuLista {
+                width: 35%;
+                padding: 5px 0px;
+                margin: 5px; }
+            body .grid .mainProductos .tiendaProductos .sectionProductos {
+              width: 100%;
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: center; }
+              body .grid .mainProductos .tiendaProductos .sectionProductos .divImg {
+                width: 90%;
+                margin: 15px; }
+              body .grid .mainProductos .tiendaProductos .sectionProductos .descripcionColor figcaption {
+                font-size: 20px; }
+        body .grid .mainContacto form {
+          width: 250px; } }
+    @media screen and (max-width: 600px) and (min-width: 361px) {
+      body .grid {
+        /* mediasqueries nosotros */
+        /* mediasqueries productos */
+        /* mediasqueries contacto */ }
+        body .grid .section1 .sectionImg {
+          width: 350px; }
+        body .grid .section1 .sectionImg2 {
+          width: 350px; }
+        body .grid .section1 .imgLogo {
+          margin-top: 30px;
+          width: 100px; }
         body .grid .ul-icono {
           padding-left: 20px;
           margin-top: 20px; }

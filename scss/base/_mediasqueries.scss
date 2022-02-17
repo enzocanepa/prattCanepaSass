@@ -1,15 +1,88 @@
 /* mediasqueries celular index*/
-
-@media screen and (max-width: 600px) and (min-width: 280px){
+@media screen and (max-width: 360px) and (min-width: 200px){
     .section1{
         .sectionImg{
-            width: 650px;
+            width: 250px;
         }
         .sectionImg2{
-            width: 650px;
+            width: 250px;
         }
         .imgLogo{
             margin-top: 30px;
+            width: 100px;
+        }
+    }
+    .ul-icono{
+        padding-left: 20px;
+        margin-top: 20px;
+    }
+    /* mediasqueries nosotros */
+    .nosotros_div{
+        max-width: 100%;
+    }
+    .sectionNosotros{
+        margin: auto;
+        .divContainer{
+            flex-direction: column;
+            justify-content: center;
+            .divMap{
+                display: none;
+            }
+        }
+    }
+    /* mediasqueries productos */
+    .mainProductos{
+        width: 100%;
+        .tiendaProductos{
+            flex-direction: column;
+            .divLista{
+                flex-wrap: wrap;
+                flex-direction: row;
+                width: 100%;
+                margin-bottom: 5%;
+                justify-content: center;
+                .menuLista{
+                    width: 35%;
+                    padding: 5px 0px;
+                    margin: 5px;
+                }
+            }
+            /* productos ========= */
+            .sectionProductos{
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                .divImg{
+                    width: 90%;
+                    margin: 15px;
+                }
+                .descripcionColor{
+                    figcaption{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+    /* mediasqueries contacto */
+    .mainContacto{
+        form{
+            width: 250px;
+        }
+    }
+}
+@media screen and (max-width: 600px) and (min-width: 361px){   
+    .section1{
+        .sectionImg{
+            width: 350px;
+        }
+        .sectionImg2{
+            width: 350px;
+        }
+        .imgLogo{
+            margin-top: 30px;
+            width: 100px;
         }
     }
     .ul-icono{
