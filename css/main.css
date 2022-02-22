@@ -40,7 +40,8 @@ body {
       display: flex;
       justify-content: center; }
       body .grid .mainPrincipal #carrusel_remera {
-        width: 98%; }
+        width: 98%;
+        height: 90%; }
     body .grid .section1 {
       /* section1 ========= */
       grid-area: section1;
@@ -54,9 +55,11 @@ body {
         margin: 10px; }
       body .grid .section1 .sectionImg {
         width: 450px;
+        height: 550px;
         box-shadow: 0px 0px 6px 0px #494949; }
       body .grid .section1 .sectionImg2 {
         width: 685px;
+        height: 450px;
         box-shadow: 0px 0px 6px 0px #494949; }
       body .grid .section1 .divLogo {
         display: flex;
@@ -64,7 +67,8 @@ body {
         align-items: center;
         margin-top: 5%; }
         body .grid .section1 .divLogo .imgLogo {
-          max-width: 200px;
+          width: 200px;
+          height: 130px;
           transition: 0.5s; }
           body .grid .section1 .divLogo .imgLogo:hover {
             transform: scale(1.1); }
@@ -78,20 +82,20 @@ body {
         margin-top: 20px;
         margin-bottom: 15px;
         list-style: none; }
-        body .grid footer .ul-icono .footerA1 {
+        body .grid footer .ul-icono li .footerA1 {
           color: black;
           text-decoration: none;
           margin: 3px;
           transition: 0.5s; }
-          body .grid footer .ul-icono .footerA1:hover {
+          body .grid footer .ul-icono li .footerA1:hover {
             color: #e46dc6;
             transform: scale(1.1); }
-        body .grid footer .ul-icono .footerA2 {
+        body .grid footer .ul-icono li .footerA2 {
           color: black;
           text-decoration: none;
           margin: 3px;
           transition: 0.5s; }
-          body .grid footer .ul-icono .footerA2:hover {
+          body .grid footer .ul-icono li .footerA2:hover {
             color: #2929c7;
             transform: scale(1.1); }
       body .grid footer .p_footer {
