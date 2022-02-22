@@ -19,7 +19,6 @@ body {
     /* pages/nosotros */
     /* pages/contacto */
     /* pages/carrito */
-    /* mediasqueries celular index*/
     /* mediaqueries tablet index */
     /* mediaqueries tablet grande index*/
     /* mediasqueries */
@@ -55,11 +54,9 @@ body {
         margin: 10px; }
       body .grid .section1 .sectionImg {
         width: 450px;
-        height: 550px;
         box-shadow: 0px 0px 6px 0px #494949; }
       body .grid .section1 .sectionImg2 {
         width: 685px;
-        height: 450px;
         box-shadow: 0px 0px 6px 0px #494949; }
       body .grid .section1 .divLogo {
         display: flex;
@@ -67,8 +64,7 @@ body {
         align-items: center;
         margin-top: 5%; }
         body .grid .section1 .divLogo .imgLogo {
-          width: 200px;
-          height: 130px;
+          max-width: 200px;
           transition: 0.5s; }
           body .grid .section1 .divLogo .imgLogo:hover {
             transform: scale(1.1); }
@@ -277,6 +273,7 @@ body {
           font-size: 1.4em; }
     @media screen and (max-width: 360px) and (min-width: 200px) {
       body .grid {
+        /* mediasqueries celular index*/
         /* mediasqueries nosotros */
         /* mediasqueries productos */
         /* mediasqueries contacto */ }
